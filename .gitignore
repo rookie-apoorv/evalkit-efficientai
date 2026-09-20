@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.uv/
+uv.lock
+
+# Never commit credentials. The bundle the TAs distributed ships a live
+# GitHub PAT in environment.sh; that file must not enter this repo.
+environment.sh
+exports.txt
+*.env
+.secrets
+
+# Working artifacts
+eval_workdir/
+outputs/
+logs/
+*.log
